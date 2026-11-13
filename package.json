@@ -1,0 +1,12 @@
+{
+  "name": "sultan-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Relay server for the Sultan assistant app",
+  "main": "server.js",
+  "engines": { "node": ">=20.6" },
+  "scripts": {
+    "start": "node --env-file=.env server.js"
+  }
+}
+
